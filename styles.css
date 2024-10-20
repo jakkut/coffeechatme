@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: lightblue;
+}
+
+body {
+    background-image: url("img/background.gif");
+    background-size: 10%;
+}
+
+body * {
+    margin: 0;
+}
+
+.img-wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.img-wrapper img {
+    position: absolute;
+}
+
+#coffee, #jack, #phone, #insta {
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#coffee {
+    top: 6vh;
+    width: 30em;
+    filter: drop-shadow(0 0 0.75rem black);
+}
+
+#jack {
+    top: 10vh;
+    width: 20em;
+    filter: drop-shadow(0 0 0.75rem black);
+}
+
+#mystery {
+    z-index: -1;
+    top: 8vh;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 75%;
+}
+
+#limited {
+    top: 15em;
+    left: 5em;
+    transform: rotate(15deg);
+    width: 20em;
+    filter: drop-shadow(0 0 1rem purple);
+}
+
+#cat {
+    top: 17em;
+    right: 5em;
+    transform: rotate(-15deg);
+    width: 24em;
+    filter: drop-shadow(0 0 0.75rem crimson);
+
+}
+
+#phone {
+    top: 74em;
+    height: 5em;
+    filter: drop-shadow(0 0 0.75rem orange);
+}
+    
+#insta {
+    top: 80em;
+    height: 5em;
+    filter: drop-shadow(0 0 0.75rem orange);
+}
